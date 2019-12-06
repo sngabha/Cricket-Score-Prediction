@@ -44,9 +44,16 @@ and also predict the winner of the match.
 
 \--------match_stats_test.pkl -\> *Contains testing data formed using pre-calculated stats. Stored 
 								   as a pickled dataframe.*
+
+
+\----Bag of player models -\> *Contains regression analysis of bag of player models.*
+
+\--------SVR (Bag of Player).ipynb -\> *Contains support vector regression analysis.*
+
+\--------Polynomial Regression (Bag of Player).ipynb -\> *Contains polynomial regression analysis.*
  
 
-\----Regression Models
+\----Line Up models -\> *Contains regression analysis of line up models.*
 
 \--------Linear and Polynomial Regression.ipynb -\> *Contains Linear and polynomial regression analysis.*
 
@@ -77,5 +84,9 @@ Please perform the steps in the same order.
 	executed all required data for training models will be saved in "Derived Stats"
 	folder.
 
-2.  All of the regression analysis can be found in "Regression Models" folder.
+2.  Regression analysis for bag of player models can be found in "Bag of player models" folder.
 	These notebooks can be run in any order to see the model performance.
+
+3.  Regression analysis for line up models can be found in "Line Up models" folder.
+	These notebooks can be run in any order to see the model performance.
+   
